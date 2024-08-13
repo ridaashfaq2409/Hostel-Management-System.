@@ -1,0 +1,148 @@
+create table Hostel(
+    Hostel_id int primary key,
+    warden varchar(50), 
+    total_occupancy int, 
+    unoccupied int, 
+    constraint chk_rooms check (total_occupancy >= occupancy));
+
+
+create table rooms(
+    Room_ID varchar(20) primary key not null,
+    Occupant_type varchar(20) not null, 
+    Conditioning varchar(20) not null, 
+    constraint chk_AC check (conditioning = 'YES' or conditioning = 'NO'), 
+    constraint chk_occ check (Occupant_type = 'SINGLE' or Occupant_type = 'DOUBLE'));
+
+
+alter table rooms 
+add constraint chk_ID check(Room_ID = '01AC' or Room_ID = '01NC' or Room_ID = '02AC' or Room_ID = '02NC');
+
+
+create table Hostel_rooms(
+    Hostel_id int references Hostel(Hostel_id), 
+    Room_ID varchar(20) references rooms(Room_ID), 
+    available_rooms int,
+    cgpa_needed float(4));
+
+
+create table Mess(
+    Mess_id int primary key, 
+    mess_name varchar(50), 
+    availability int not null, 
+    constraint chk_availability 
+    check (availability = 0 or availability = 1));
+
+
+create table fees(
+    Hostel_id int references Hostel(Hostel_id), 
+    room_ID references rooms(room_ID), 
+    Hostel_fee int not null, 
+    Mess_fee int not null, 
+    total_fee int);
+
+
+alter table fees modify (total_fee null);
+
+
+create table usertype(
+    reg_no varchar(40) primary key,
+    email varchar(40) not null,
+    password varchar(30) not null,
+    phone varchar(30) not null);
+
+
+create table student(
+    registration_number varchar(20) references usertype(reg_no) primary key, 
+    name varchar(50) not null, 
+    semester int,
+    branch varchar(20), 
+    cgpa float(4), 
+    Hostel_id int references Hostel(Hostel_id), 
+    Mess_id int references mess(mess_id), 
+    gender varchar(6),
+    constraint chk_gender check (gender = 'FEMALE' or gender = 'MALE'),
+    constraint chk_sem check (semester>=1 and semester<=8));
+
+
+create table caretaker(
+    ct_id varchar(20) references usertype(reg_no) primary key, 
+    ct_name varchar(50) not null, 
+    Hostel_id int references Hostel(Hostel_id),
+    shift_timings varchar(10));
+
+
+create table administrator(
+    admin_id varchar(20) references usertype(reg_no) primary key,
+    name varchar(20) not null,
+    department varchar(20));
+
+
+create table B10(
+    sno int primary key,
+    reg_no varchar(20) references student(registration_number), 
+    name varchar(50),
+    room_id varchar(15) references rooms(Room_ID), 
+    room_number int , 
+    contact varchar(30));
+
+create table B11(
+    sno int primary key,
+    reg_no varchar(20) references student(registration_number), 
+    name varchar(50),
+    room_id varchar(15) references rooms(Room_ID), 
+    room_number int , 
+    contact varchar(30));
+
+create table B12(
+    sno int primary key,
+    reg_no varchar(20) references student(registration_number), 
+    name varchar(50),
+    room_id varchar(15) references rooms(Room_ID), 
+    room_number int , 
+    contact varchar(30));
+
+create table B20(
+    sno int primary key,
+    reg_no varchar(20) references student(registration_number), 
+    name varchar(50),
+    room_id varchar(15) references rooms(Room_ID), 
+    room_number int , 
+    contact varchar(30));
+
+create table B21(
+    sno int primary key,
+    reg_no varchar(20) references student(registration_number), 
+    name varchar(50),
+    room_id varchar(15) references rooms(Room_ID), 
+    room_number int , 
+    contact varchar(30));
+
+create table mess_change(
+    reg_no varchar(20) references student(registration_number),
+    old_mess varchar(20),
+    new_mess varchar(20));
+
+create table room_change(
+    reg_no varchar(20) references student(registration_number),
+    old_hostel_id references hostel(hostel_id),
+    old_hostel_type varchar(5),
+    new_hostel_id references hostel(hostel_id),
+    new_hostel_type varchar(5),
+    reason varchar(60),
+    constraint chk_ID0 check(new_hostel_type = '01AC' or new_hostel_type = '01NC' or new_hostel_type = '02AC' or new_hostel_type = '02NC'),
+    constraint chk_ID1 check(old_hostel_type = '01AC' or old_hostel_type = '01NC' or old_hostel_type = '02AC' or old_hostel_type = '02NC'));
+
+create table complaints(
+    reg_no varchar(20) references student(registration_number),
+    issue_id varchar(10) primary key,
+    issue_type varchar(30),
+    problem varchar(30),
+    status varchar(10),
+    constraint chk_ID2 check(status='PENDING' or status='RESOLVED'));
+
+create table mail(
+    reg_no varchar(20) references student(registration_number),
+    mail_code varchar(10) primary key,
+    subject varchar(30),
+    status varchar(10),
+    constraint chk_ID3 check(status='REJECTED' or status='APPROVED' or status='RESOLVED'));

@@ -1,0 +1,57 @@
+D:\210953080\Applications\HostelManagement\HostelManagement\bin\Debug\HostelManagement.exe.config
+D:\210953080\Applications\FrontEnd\HostelManagement\HostelManagement\bin\Debug\HostelManagement.exe.config
+D:\210953174_ShouvikShome\FrontEnd\HostelManagement\HostelManagement\bin\Debug\HostelManagement.exe.config
+D:\210953174_ShouvikShome\FrontEnd\HostelManagement\HostelManagement\bin\Debug\HostelManagement.exe
+D:\210953174_ShouvikShome\FrontEnd\HostelManagement\HostelManagement\bin\Debug\HostelManagement.pdb
+D:\210953174_ShouvikShome\FrontEnd\HostelManagement\HostelManagement\obj\Debug\HostelManagement.csprojResolveAssemblyReference.cache
+D:\210953174_ShouvikShome\FrontEnd\HostelManagement\HostelManagement\obj\Debug\HostelManagement.LOGIN.resources
+D:\210953174_ShouvikShome\FrontEnd\HostelManagement\HostelManagement\obj\Debug\HostelManagement.Properties.Resources.resources
+D:\210953174_ShouvikShome\FrontEnd\HostelManagement\HostelManagement\obj\Debug\HostelManagement.csproj.GenerateResource.Cache
+D:\210953174_ShouvikShome\FrontEnd\HostelManagement\HostelManagement\obj\Debug\HostelManagement.exe
+D:\210953174_ShouvikShome\FrontEnd\HostelManagement\HostelManagement\obj\Debug\HostelManagement.pdb
+E:\Study\OneDrive - Manipal Academy of Higher Education\Coding\Hostel Management\FrontEnd\HostelManagement\HostelManagement\bin\Debug\HostelManagement.exe.config
+E:\Study\OneDrive - Manipal Academy of Higher Education\Coding\Hostel Management\FrontEnd\HostelManagement\HostelManagement\bin\Debug\HostelManagement.exe
+E:\Study\OneDrive - Manipal Academy of Higher Education\Coding\Hostel Management\FrontEnd\HostelManagement\HostelManagement\bin\Debug\HostelManagement.pdb
+E:\Study\OneDrive - Manipal Academy of Higher Education\Coding\Hostel Management\FrontEnd\HostelManagement\HostelManagement\obj\Debug\HostelManagement.csproj.AssemblyReference.cache
+E:\Study\OneDrive - Manipal Academy of Higher Education\Coding\Hostel Management\FrontEnd\HostelManagement\HostelManagement\obj\Debug\HostelManagement.csproj.SuggestedBindingRedirects.cache
+E:\Study\OneDrive - Manipal Academy of Higher Education\Coding\Hostel Management\FrontEnd\HostelManagement\HostelManagement\obj\Debug\HostelManagement.LOGIN.resources
+E:\Study\OneDrive - Manipal Academy of Higher Education\Coding\Hostel Management\FrontEnd\HostelManagement\HostelManagement\obj\Debug\HostelManagement.Properties.Resources.resources
+E:\Study\OneDrive - Manipal Academy of Higher Education\Coding\Hostel Management\FrontEnd\HostelManagement\HostelManagement\obj\Debug\HostelManagement.csproj.GenerateResource.cache
+E:\Study\OneDrive - Manipal Academy of Higher Education\Coding\Hostel Management\FrontEnd\HostelManagement\HostelManagement\obj\Debug\HostelManagement.csproj.CoreCompileInputs.cache
+E:\Study\OneDrive - Manipal Academy of Higher Education\Coding\Hostel Management\FrontEnd\HostelManagement\HostelManagement\obj\Debug\HostelManagement.exe
+E:\Study\OneDrive - Manipal Academy of Higher Education\Coding\Hostel Management\FrontEnd\HostelManagement\HostelManagement\obj\Debug\HostelManagement.pdb
+E:\Study\OneDrive - Manipal Academy of Higher Education\Coding\DBS Project\FrontEnd\HostelManagement\HostelManagement\bin\Debug\HostelManagement.exe.config
+E:\Study\OneDrive - Manipal Academy of Higher Education\Coding\DBS Project\FrontEnd\HostelManagement\HostelManagement\bin\Debug\HostelManagement.exe
+E:\Study\OneDrive - Manipal Academy of Higher Education\Coding\DBS Project\FrontEnd\HostelManagement\HostelManagement\bin\Debug\HostelManagement.pdb
+E:\Study\OneDrive - Manipal Academy of Higher Education\Coding\DBS Project\FrontEnd\HostelManagement\HostelManagement\obj\Debug\HostelManagement.LOGIN.resources
+E:\Study\OneDrive - Manipal Academy of Higher Education\Coding\DBS Project\FrontEnd\HostelManagement\HostelManagement\obj\Debug\HostelManagement.Properties.Resources.resources
+E:\Study\OneDrive - Manipal Academy of Higher Education\Coding\DBS Project\FrontEnd\HostelManagement\HostelManagement\obj\Debug\HostelManagement.csproj.GenerateResource.cache
+E:\Study\OneDrive - Manipal Academy of Higher Education\Coding\DBS Project\FrontEnd\HostelManagement\HostelManagement\obj\Debug\HostelManagement.exe
+E:\Study\OneDrive - Manipal Academy of Higher Education\Coding\DBS Project\FrontEnd\HostelManagement\HostelManagement\obj\Debug\HostelManagement.pdb
+E:\Study\OneDrive - Manipal Academy of Higher Education\Coding\DBS Project\FrontEnd\HostelManagement\HostelManagement\obj\Debug\HostelManagement.Form2.resources
+E:\Study\OneDrive - Manipal Academy of Higher Education\Coding\DBS Project\FrontEnd\HostelManagement\HostelManagement\obj\Debug\HostelManagement.Form3.resources
+E:\Study\OneDrive - Manipal Academy of Higher Education\Coding\DBS Project\FrontEnd\HostelManagement\HostelManagement\bin\Debug\mscorlib.dll
+E:\Study\OneDrive - Manipal Academy of Higher Education\Coding\DBS Project\FrontEnd\HostelManagement\HostelManagement\bin\Debug\normidna.nlp
+E:\Study\OneDrive - Manipal Academy of Higher Education\Coding\DBS Project\FrontEnd\HostelManagement\HostelManagement\bin\Debug\normnfc.nlp
+E:\Study\OneDrive - Manipal Academy of Higher Education\Coding\DBS Project\FrontEnd\HostelManagement\HostelManagement\bin\Debug\normnfd.nlp
+E:\Study\OneDrive - Manipal Academy of Higher Education\Coding\DBS Project\FrontEnd\HostelManagement\HostelManagement\bin\Debug\normnfkc.nlp
+E:\Study\OneDrive - Manipal Academy of Higher Education\Coding\DBS Project\FrontEnd\HostelManagement\HostelManagement\bin\Debug\normnfkd.nlp
+E:\Study\OneDrive - Manipal Academy of Higher Education\Coding\DBS Project\FrontEnd\HostelManagement\HostelManagement\obj\Debug\HostelManagement.csprojResolveAssemblyReference.cache
+E:\Study\OneDrive - Manipal Academy of Higher Education\Coding\DBS Project\FrontEnd\HostelManagement\HostelManagement\bin\Debug\Oracle.DataAccess.dll
+E:\Study\OneDrive - Manipal Academy of Higher Education\Coding\DBS Project\FrontEnd\HostelManagement\HostelManagement\obj\Debug\HostelManagement.Profile.resources
+E:\Study\OneDrive - Manipal Academy of Higher Education\Coding\DBS Project\FrontEnd\HostelManagement\HostelManagement\obj\Debug\HostelManagement.Booking.resources
+E:\Study\OneDrive - Manipal Academy of Higher Education\Coding\DBS Project\FrontEnd\HostelManagement\HostelManagement\obj\Debug\HostelManagement.Mess.resources
+E:\Study\OneDrive - Manipal Academy of Higher Education\Coding\DBS Project\FrontEnd\HostelManagement\HostelManagement\obj\Debug\HostelManagement.Change.resources
+E:\Study\OneDrive - Manipal Academy of Higher Education\Coding\DBS Project\FrontEnd\HostelManagement\HostelManagement\obj\Debug\HostelManagement.Issues.resources
+E:\Study\OneDrive - Manipal Academy of Higher Education\Coding\DBS Project\FrontEnd\HostelManagement\HostelManagement\obj\Debug\HostelManagement.EditDetails.resources
+E:\Study\OneDrive - Manipal Academy of Higher Education\Coding\DBS Project\FrontEnd\HostelManagement\HostelManagement\obj\Debug\HostelManagement.ProfileAdmin.resources
+E:\Study\OneDrive - Manipal Academy of Higher Education\Coding\DBS Project\FrontEnd\HostelManagement\HostelManagement\obj\Debug\HostelManagement.ChangeAdmin.resources
+E:\Study\OneDrive - Manipal Academy of Higher Education\Coding\DBS Project\FrontEnd\HostelManagement\HostelManagement\obj\Debug\HostelManagement.MessAdmin.resources
+E:\Study\OneDrive - Manipal Academy of Higher Education\Coding\DBS Project\FrontEnd\HostelManagement\HostelManagement\obj\Debug\HostelManagement.Stats.resources
+C:\Users\Dell\Desktop\Hostel-Management-DBS-Project\FrontEnd\HostelManagement\HostelManagement\bin\Debug\HostelManagement.exe.config
+C:\Users\Dell\Desktop\Hostel-Management-DBS-Project\FrontEnd\HostelManagement\HostelManagement\obj\Debug\HostelManagement.exe
+C:\Users\Dell\Desktop\Hostel-Management-DBS-Project\FrontEnd\HostelManagement\HostelManagement\obj\Debug\HostelManagement.pdb
+E:\Study\OneDrive - Manipal Academy of Higher Education\Coding\DBS Project\FrontEnd\HostelManagement\HostelManagement\obj\Debug\HostelManagement.ProfileCaretaker.resources
+E:\Study\OneDrive - Manipal Academy of Higher Education\Coding\DBS Project\FrontEnd\HostelManagement\HostelManagement\obj\Debug\HostelManagement.CIssue.resources
+E:\Study\OneDrive - Manipal Academy of Higher Education\Coding\DBS Project\FrontEnd\HostelManagement\HostelManagement\obj\Debug\HostelManagement.CDetails.resources
+E:\Study\OneDrive - Manipal Academy of Higher Education\Coding\DBS Project\FrontEnd\HostelManagement\HostelManagement\obj\Debug\HostelManagement.Mail.resources

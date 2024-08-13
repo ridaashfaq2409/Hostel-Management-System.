@@ -1,0 +1,341 @@
+*****
+
+insert into hostel values(10,'DANIEL',40,40);
+insert into hostel values(11,'JOHN',40,40);
+insert into hostel values(12,'TOM',30,30);
+insert into hostel values(20,'MAY',40,40);
+insert into hostel values(21,'JOAN',30,30);
+//dont make warden details predetermined
+
+
+*****
+
+insert into mess values(1,'Quest',1);
+insert into mess values(2,'Rook',1);
+insert into mess values(3,'Opulence',1);
+insert into mess values(4,'Force',1);
+insert into mess values(5,'Nevada',1);
+
+*****
+
+insert into rooms values('01AC','SINGLE','YES');
+insert into rooms values('02AC','DOUBLE','YES');
+insert into rooms values('01NC','SINGLE','NO');
+insert into rooms values('02NC','DOUBLE','NO');
+
+*****
+
+insert into hostel_rooms values(10,'01AC',10,8.5);
+insert into hostel_rooms values(10,'01NC',10,7.5);
+insert into hostel_rooms values(10,'02AC',5,7.5);
+insert into hostel_rooms values(10,'02NC',5,6.5);
+insert into hostel_rooms values(11,'01AC',5,8.5);
+insert into hostel_rooms values(11,'01NC',5,8);
+insert into hostel_rooms values(11,'02AC',10,7.5);
+insert into hostel_rooms values(11,'02NC',5,7);
+insert into hostel_rooms values(12,'01AC',5,8.5);
+insert into hostel_rooms values(12,'01NC',5,8);
+insert into hostel_rooms values(12,'02AC',5,7.5);
+insert into hostel_rooms values(12,'02NC',5,6);
+insert into hostel_rooms values(20,'01AC',10,8.5);
+insert into hostel_rooms values(20,'01NC',10,7);
+insert into hostel_rooms values(20,'02AC',5,7);
+insert into hostel_rooms values(20,'02NC',5,6.5);
+insert into hostel_rooms values(21,'01AC',5,8);
+insert into hostel_rooms values(21,'01NC',5,8);
+insert into hostel_rooms values(21,'02AC',5,7.5);
+insert into hostel_rooms values(21,'02NC',5,7);
+
+*****
+
+insert into fees(hostel_id,room_id,hostel_fee,mess_fee) values(10,'01AC',200000,20000);
+insert into fees(hostel_id,room_id,hostel_fee,mess_fee) values(10,'01NC',175000,20000);
+insert into fees(hostel_id,room_id,hostel_fee,mess_fee) values(10,'02AC',185000,20000);
+insert into fees(hostel_id,room_id,hostel_fee,mess_fee) values(10,'02NC',125000,20000);
+insert into fees(hostel_id,room_id,hostel_fee,mess_fee) values(11,'01AC',200000,15000);
+insert into fees(hostel_id,room_id,hostel_fee,mess_fee) values(11,'01NC',175000,15000);
+insert into fees(hostel_id,room_id,hostel_fee,mess_fee) values(11,'02AC',185000,15000);
+insert into fees(hostel_id,room_id,hostel_fee,mess_fee) values(11,'02NC',125000,15000);
+insert into fees(hostel_id,room_id,hostel_fee,mess_fee) values(12,'01AC',200000,25000);
+insert into fees(hostel_id,room_id,hostel_fee,mess_fee) values(12,'01NC',175000,25000);
+insert into fees(hostel_id,room_id,hostel_fee,mess_fee) values(12,'02AC',185000,25000);
+insert into fees(hostel_id,room_id,hostel_fee,mess_fee) values(12,'02NC',125000,25000);
+insert into fees(hostel_id,room_id,hostel_fee,mess_fee) values(20,'01AC',200000,18000);
+insert into fees(hostel_id,room_id,hostel_fee,mess_fee) values(20,'01NC',175000,18000);
+insert into fees(hostel_id,room_id,hostel_fee,mess_fee) values(20,'02AC',185000,18000);
+insert into fees(hostel_id,room_id,hostel_fee,mess_fee) values(20,'02NC',125000,18000);
+insert into fees(hostel_id,room_id,hostel_fee,mess_fee) values(21,'01AC',200000,30000);
+insert into fees(hostel_id,room_id,hostel_fee,mess_fee) values(21,'01NC',175000,30000);
+insert into fees(hostel_id,room_id,hostel_fee,mess_fee) values(21,'02AC',185000,30000);
+insert into fees(hostel_id,room_id,hostel_fee,mess_fee) values(21,'02NC',125000,30000);
+
+*****
+
+insert into usertype values('21090001','amyrivers@gmail.com','student',8424294920);
+insert into usertype values('21090002','lauragrey@gmail.com','student',7973494920);
+insert into usertype values('21090003','nickrussels@gmail.com','student',9834683553);
+insert into usertype values('21090004','tomsmith@gmail.com','student',8364283243);
+insert into usertype values('21090005','lilyjames@gmail.com','student',9005006531);
+insert into usertype values('21090006','percyjackson@gmail.com','student',9560352929);
+insert into usertype values('101','katiec@gmail.com','caretaker',6759476321);
+insert into usertype values('105','ericc@gmail.com','caretaker',5748364733);
+insert into usertype values('123','deliac@gmail.com','caretaker',5778564312);
+insert into usertype values('107','joec@gmail.com','caretaker',8948547342);
+
+*****
+
+insert into student values('21090001','Amy Rivers',2,'CSE',8.6,20,5,'FEMALE');
+insert into student values('21090002','Laura Grey',4,'CCE',7.9,21,4,'FEMALE');
+insert into student values('21090003','Nick Russel',6,'CSE',7.6,10,2,'MALE');
+insert into student values('21090004','Tom Smith',6,'IT',7.0,11,3,'MALE');
+insert into student values('21090005','Lily James',4,'ECE',7.7,20,1,'FEMALE');
+insert into student values('21090006','Percy Jackson',6,'CCE',7.1,12,5,'MALE');
+
+*****
+
+insert into caretaker values('101','Katie',10,'9 to 5');
+insert into caretaker values('105','Eric',11,'10 to 6');
+insert into caretaker values('123','Delia',20,'8 to 4');
+insert into caretaker values('107','Joe',21,'9 to 5');
+
+*****
+
+insert into complaints values('21090001',1001,'Appliance','Faulty Switch','101','COMPLETED');
+insert into complaints values('21090002',1006,'Appliance','Faucet Broken','123','NOT COMPLETED');
+insert into complaints values('21090003',1011,'Maintainance','No Hot Water','105','COMPLETED');
+insert into complaints values('21090004',1012,'Appliance','AC not working','123','NOT COMPLETED');
+insert into complaints values('21090005',1015,'Appliance','Fan regulator broken','107','NOT COMPLETED');
+
+
+*****
+
+// Every hostel block will have its own database block
+// Trigger to reduce available rooms when data is inserted or incremented when data is deleted.
+// To access room number for a student , we check student block number and then iterate over the same block table for the room number
+// Check for occupancy of every room
+// Room allotment initialised to null
+
+*****
+
+insert into usertype values ('NULL','NULL','NULL','NULL');
+insert into HOSTEL values (-999,'NULL',100,100);
+insert into MESS values (-999,'NULL',0);
+insert into student values ('NULL','NULL',8,'NULL',NULL,-999,-999,'FEMALE');
+
+*****
+
+insert into b10 values(1,'NULL','NULL','01AC',100,'NULL');
+insert into b10 values(2,'NULL','NULL','01AC',101,'NULL');
+insert into b10 values(3,'NULL','NULL','01AC',102,'NULL');
+insert into b10 values(4,'NULL','NULL','01AC',103,'NULL');
+insert into b10 values(5,'NULL','NULL','01AC',104,'NULL');
+insert into b10 values(6,'NULL','NULL','01AC',105,'NULL');
+insert into b10 values(7,'NULL','NULL','01AC',106,'NULL');
+insert into b10 values(8,'NULL','NULL','01AC',107,'NULL');
+insert into b10 values(9,'NULL','NULL','01AC',108,'NULL');
+insert into b10 values(10,'NULL','NULL','01AC',109,'NULL');
+insert into b10 values(11,'NULL','NULL','01NC',110,'NULL');
+insert into b10 values(12,'NULL','NULL','01NC',111,'NULL');
+insert into b10 values(13,'NULL','NULL','01NC',112,'NULL');
+insert into b10 values(14,'NULL','NULL','01NC',113,'NULL');
+insert into b10 values(15,'NULL','NULL','01NC',114,'NULL');
+insert into b10 values(16,'NULL','NULL','01NC',115,'NULL');
+insert into b10 values(17,'NULL','NULL','01NC',116,'NULL');
+insert into b10 values(18,'NULL','NULL','01NC',117,'NULL');
+insert into b10 values(19,'NULL','NULL','01NC',118,'NULL');
+insert into b10 values(20,'NULL','NULL','01NC',119,'NULL');
+insert into b10 values(21,'NULL','NULL','02AC',120,'NULL');
+insert into b10 values(22,'NULL','NULL','02AC',120,'NULL');
+insert into b10 values(23,'NULL','NULL','02AC',121,'NULL');
+insert into b10 values(24,'NULL','NULL','02AC',121,'NULL');
+insert into b10 values(25,'NULL','NULL','02AC',122,'NULL');
+insert into b10 values(26,'NULL','NULL','02AC',122,'NULL');
+insert into b10 values(27,'NULL','NULL','02AC',123,'NULL');
+insert into b10 values(28,'NULL','NULL','02AC',123,'NULL');
+insert into b10 values(29,'NULL','NULL','02AC',124,'NULL');
+insert into b10 values(30,'NULL','NULL','02AC',124,'NULL');
+insert into b10 values(31,'NULL','NULL','02NC',125,'NULL');
+insert into b10 values(32,'NULL','NULL','02NC',125,'NULL');
+insert into b10 values(33,'NULL','NULL','02NC',126,'NULL');
+insert into b10 values(34,'NULL','NULL','02NC',126,'NULL');
+insert into b10 values(35,'NULL','NULL','02NC',127,'NULL');
+insert into b10 values(36,'NULL','NULL','02NC',127,'NULL');
+insert into b10 values(37,'NULL','NULL','02NC',128,'NULL');
+insert into b10 values(38,'NULL','NULL','02NC',128,'NULL');
+insert into b10 values(39,'NULL','NULL','02NC',129,'NULL');
+insert into b10 values(40,'NULL','NULL','02NC',129,'NULL');
+
+*****
+
+insert into b11 values(1,'NULL','NULL','01AC',100,'NULL');
+insert into b11 values(2,'NULL','NULL','01AC',101,'NULL');
+insert into b11 values(3,'NULL','NULL','01AC',102,'NULL');
+insert into b11 values(4,'NULL','NULL','01AC',103,'NULL');
+insert into b11 values(5,'NULL','NULL','01AC',104,'NULL');
+insert into b11 values(6,'NULL','NULL','01NC',105,'NULL');
+insert into b11 values(7,'NULL','NULL','01NC',106,'NULL');
+insert into b11 values(8,'NULL','NULL','01NC',107,'NULL');
+insert into b11 values(9,'NULL','NULL','01NC',108,'NULL');
+insert into b11 values(10,'NULL','NULL','01NC',109,'NULL');
+insert into b11 values(11,'NULL','NULL','02AC',110,'NULL');
+insert into b11 values(12,'NULL','NULL','02AC',110,'NULL');
+insert into b11 values(13,'NULL','NULL','02AC',111,'NULL');
+insert into b11 values(14,'NULL','NULL','02AC',111,'NULL');
+insert into b11 values(15,'NULL','NULL','02AC',112,'NULL');
+insert into b11 values(16,'NULL','NULL','02AC',112,'NULL');
+insert into b11 values(17,'NULL','NULL','02AC',113,'NULL');
+insert into b11 values(18,'NULL','NULL','02AC',113,'NULL');
+insert into b11 values(19,'NULL','NULL','02AC',114,'NULL');
+insert into b11 values(20,'NULL','NULL','02AC',114,'NULL');
+insert into b11 values(21,'NULL','NULL','02AC',115,'NULL');
+insert into b11 values(22,'NULL','NULL','02AC',115,'NULL');
+insert into b11 values(23,'NULL','NULL','02AC',116,'NULL');
+insert into b11 values(24,'NULL','NULL','02AC',116,'NULL');
+insert into b11 values(25,'NULL','NULL','02AC',117,'NULL');
+insert into b11 values(26,'NULL','NULL','02AC',117,'NULL');
+insert into b11 values(27,'NULL','NULL','02AC',118,'NULL');
+insert into b11 values(28,'NULL','NULL','02AC',118,'NULL');
+insert into b11 values(29,'NULL','NULL','02AC',119,'NULL');
+insert into b11 values(30,'NULL','NULL','02AC',119,'NULL');
+insert into b11 values(31,'NULL','NULL','02NC',120,'NULL');
+insert into b11 values(32,'NULL','NULL','02NC',120,'NULL');
+insert into b11 values(33,'NULL','NULL','02NC',121,'NULL');
+insert into b11 values(34,'NULL','NULL','02NC',121,'NULL');
+insert into b11 values(35,'NULL','NULL','02NC',122,'NULL');
+insert into b11 values(36,'NULL','NULL','02NC',122,'NULL');
+insert into b11 values(37,'NULL','NULL','02NC',123,'NULL');
+insert into b11 values(38,'NULL','NULL','02NC',123,'NULL');
+insert into b11 values(39,'NULL','NULL','02NC',124,'NULL');
+insert into b11 values(40,'NULL','NULL','02NC',124,'NULL');
+
+*****
+
+insert into b12 values(1,'NULL','NULL','01AC',100,'NULL');
+insert into b12 values(2,'NULL','NULL','01AC',101,'NULL');
+insert into b12 values(3,'NULL','NULL','01AC',102,'NULL');
+insert into b12 values(4,'NULL','NULL','01AC',103,'NULL');
+insert into b12 values(5,'NULL','NULL','01AC',104,'NULL');
+insert into b12 values(6,'NULL','NULL','01NC',105,'NULL');
+insert into b12 values(7,'NULL','NULL','01NC',106,'NULL');
+insert into b12 values(8,'NULL','NULL','01NC',107,'NULL');
+insert into b12 values(9,'NULL','NULL','01NC',108,'NULL');
+insert into b12 values(10,'NULL','NULL','01NC',109,'NULL');
+insert into b12 values(11,'NULL','NULL','02AC',110,'NULL');
+insert into b12 values(12,'NULL','NULL','02AC',110,'NULL');
+insert into b12 values(13,'NULL','NULL','02AC',111,'NULL');
+insert into b12 values(14,'NULL','NULL','02AC',111,'NULL');
+insert into b12 values(15,'NULL','NULL','02AC',112,'NULL');
+insert into b12 values(16,'NULL','NULL','02AC',112,'NULL');
+insert into b12 values(17,'NULL','NULL','02AC',113,'NULL');
+insert into b12 values(18,'NULL','NULL','02AC',113,'NULL');
+insert into b12 values(19,'NULL','NULL','02AC',114,'NULL');
+insert into b12 values(20,'NULL','NULL','02AC',114,'NULL');
+insert into b12 values(21,'NULL','NULL','02NC',115,'NULL');
+insert into b12 values(22,'NULL','NULL','02NC',115,'NULL');
+insert into b12 values(23,'NULL','NULL','02NC',116,'NULL');
+insert into b12 values(24,'NULL','NULL','02NC',116,'NULL');
+insert into b12 values(25,'NULL','NULL','02NC',117,'NULL');
+insert into b12 values(26,'NULL','NULL','02NC',117,'NULL');
+insert into b12 values(27,'NULL','NULL','02NC',118,'NULL');
+insert into b12 values(28,'NULL','NULL','02NC',118,'NULL');
+insert into b12 values(29,'NULL','NULL','02NC',119,'NULL');
+insert into b12 values(30,'NULL','NULL','02NC',119,'NULL');
+
+
+*****
+
+update mess set mess_name = 'Quest' where mess_name='The Food Corner';
+update mess set mess_name = 'Chess' where mess_name='Tasty Bites';
+update mess set mess_name = 'Overdose' where mess_name='The Lunch Basket';
+update mess set mess_name = 'Star' where mess_name='The Lunch Zone';
+update mess set mess_name = 'Louvre' where mess_name='The Cafeteria';
+
+*****
+
+insert into b20 values(1,'NULL','NULL','01AC',100,'NULL');
+insert into b20 values(2,'NULL','NULL','01AC',101,'NULL');
+insert into b20 values(3,'NULL','NULL','01AC',102,'NULL');
+insert into b20 values(4,'NULL','NULL','01AC',103,'NULL');
+insert into b20 values(5,'NULL','NULL','01AC',104,'NULL');
+insert into b20 values(6,'NULL','NULL','01AC',105,'NULL');
+insert into b20 values(7,'NULL','NULL','01AC',106,'NULL');
+insert into b20 values(8,'NULL','NULL','01AC',107,'NULL');
+insert into b20 values(9,'NULL','NULL','01AC',108,'NULL');
+insert into b20 values(10,'NULL','NULL','01AC',109,'NULL');
+insert into b20 values(11,'NULL','NULL','01NC',110,'NULL');
+insert into b20 values(12,'NULL','NULL','01NC',111,'NULL');
+insert into b20 values(13,'NULL','NULL','01NC',112,'NULL');
+insert into b20 values(14,'NULL','NULL','01NC',113,'NULL');
+insert into b20 values(15,'NULL','NULL','01NC',114,'NULL');
+insert into b20 values(16,'NULL','NULL','01NC',115,'NULL');
+insert into b20 values(17,'NULL','NULL','01NC',116,'NULL');
+insert into b20 values(18,'NULL','NULL','01NC',117,'NULL');
+insert into b20 values(19,'NULL','NULL','01NC',118,'NULL');
+insert into b20 values(20,'NULL','NULL','01NC',119,'NULL');
+insert into b20 values(21,'NULL','NULL','02AC',120,'NULL');
+insert into b20 values(22,'NULL','NULL','02AC',120,'NULL');
+insert into b20 values(23,'NULL','NULL','02AC',121,'NULL');
+insert into b20 values(24,'NULL','NULL','02AC',121,'NULL');
+insert into b20 values(25,'NULL','NULL','02AC',122,'NULL');
+insert into b20 values(26,'NULL','NULL','02AC',122,'NULL');
+insert into b20 values(27,'NULL','NULL','02AC',123,'NULL');
+insert into b20 values(28,'NULL','NULL','02AC',123,'NULL');
+insert into b20 values(29,'NULL','NULL','02AC',124,'NULL');
+insert into b20 values(30,'NULL','NULL','02AC',124,'NULL');
+insert into b20 values(31,'NULL','NULL','02NC',125,'NULL');
+insert into b20 values(32,'NULL','NULL','02NC',125,'NULL');
+insert into b20 values(33,'NULL','NULL','02NC',126,'NULL');
+insert into b20 values(34,'NULL','NULL','02NC',126,'NULL');
+insert into b20 values(35,'NULL','NULL','02NC',127,'NULL');
+insert into b20 values(36,'NULL','NULL','02NC',127,'NULL');
+insert into b20 values(37,'NULL','NULL','02NC',128,'NULL');
+insert into b20 values(38,'NULL','NULL','02NC',128,'NULL');
+insert into b20 values(39,'NULL','NULL','02NC',129,'NULL');
+insert into b20 values(40,'NULL','NULL','02NC',129,'NULL');
+
+*****
+
+insert into b21 values(1,'NULL','NULL','01AC',100,'NULL');
+insert into b21 values(2,'NULL','NULL','01AC',101,'NULL');
+insert into b21 values(3,'NULL','NULL','01AC',102,'NULL');
+insert into b21 values(4,'NULL','NULL','01AC',103,'NULL');
+insert into b21 values(5,'NULL','NULL','01AC',104,'NULL');
+insert into b21 values(6,'NULL','NULL','01NC',105,'NULL');
+insert into b21 values(7,'NULL','NULL','01NC',106,'NULL');
+insert into b21 values(8,'NULL','NULL','01NC',107,'NULL');
+insert into b21 values(9,'NULL','NULL','01NC',108,'NULL');
+insert into b21 values(10,'NULL','NULL','01NC',109,'NULL');
+insert into b21 values(11,'NULL','NULL','02AC',110,'NULL');
+insert into b21 values(12,'NULL','NULL','02AC',110,'NULL');
+insert into b21 values(13,'NULL','NULL','02AC',111,'NULL');
+insert into b21 values(14,'NULL','NULL','02AC',111,'NULL');
+insert into b21 values(15,'NULL','NULL','02AC',112,'NULL');
+insert into b21 values(16,'NULL','NULL','02AC',112,'NULL');
+insert into b21 values(17,'NULL','NULL','02AC',113,'NULL');
+insert into b21 values(18,'NULL','NULL','02AC',113,'NULL');
+insert into b21 values(19,'NULL','NULL','02AC',114,'NULL');
+insert into b21 values(20,'NULL','NULL','02AC',114,'NULL');
+insert into b21 values(21,'NULL','NULL','02NC',115,'NULL');
+insert into b21 values(22,'NULL','NULL','02NC',115,'NULL');
+insert into b21 values(23,'NULL','NULL','02NC',116,'NULL');
+insert into b21 values(24,'NULL','NULL','02NC',116,'NULL');
+insert into b21 values(25,'NULL','NULL','02NC',117,'NULL');
+insert into b21 values(26,'NULL','NULL','02NC',117,'NULL');
+insert into b21 values(27,'NULL','NULL','02NC',118,'NULL');
+insert into b21 values(28,'NULL','NULL','02NC',118,'NULL');
+insert into b21 values(29,'NULL','NULL','02NC',119,'NULL');
+insert into b21 values(30,'NULL','NULL','02NC',119,'NULL');
+
+*****
+
+update hostel set total_occupancy=40, unoccupied = 40 where hostel_id=10;
+update hostel set total_occupancy=40, unoccupied = 38 where hostel_id=11;
+update hostel set total_occupancy=30, unoccupied = 30 where hostel_id=12;
+update hostel set total_occupancy=40, unoccupied = 37 where hostel_id=20;
+update hostel set total_occupancy=30, unoccupied = 30 where hostel_id=21;
+
+*****
+
+insert into issue_counter values('10853170');
+
+*****

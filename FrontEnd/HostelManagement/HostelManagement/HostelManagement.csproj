@@ -1,0 +1,362 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{8CB0757A-40A7-4A22-A5C9-1F3F5C53B19B}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>HostelManagement</RootNamespace>
+    <AssemblyName>HostelManagement</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.VisualBasic" />
+    <Reference Include="Microsoft.VisualBasic.PowerPacks.Vs, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="Oracle.DataAccess, Version=4.121.2.0, Culture=neutral, PublicKeyToken=89b483f429c47342, processorArchitecture=x86" />
+    <Reference Include="Oracle.VsDevTools.EntityFramework.17.0, Version=6.122.21.7, Culture=neutral, PublicKeyToken=89b483f429c47342, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.OracleClient" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="A1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="A1.Designer.cs">
+      <DependentUpon>A1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="A2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="A2.Designer.cs">
+      <DependentUpon>A2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="A3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="A3.Designer.cs">
+      <DependentUpon>A3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="A4.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="A4.Designer.cs">
+      <DependentUpon>A4.cs</DependentUpon>
+    </Compile>
+    <Compile Include="C1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="C1.Designer.cs">
+      <DependentUpon>C1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="C2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="C2.Designer.cs">
+      <DependentUpon>C2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="C3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="C3.Designer.cs">
+      <DependentUpon>C3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EditDetails.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EditDetails.Designer.cs">
+      <DependentUpon>EditDetails.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form2.Designer.cs">
+      <DependentUpon>Form2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form3.Designer.cs">
+      <DependentUpon>Form3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form4.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form4.Designer.cs">
+      <DependentUpon>Form4.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form5.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form5.Designer.cs">
+      <DependentUpon>Form5.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form6.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form6.Designer.cs">
+      <DependentUpon>Form6.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form7.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form7.Designer.cs">
+      <DependentUpon>Form7.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form8.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form8.Designer.cs">
+      <DependentUpon>Form8.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form9.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form9.Designer.cs">
+      <DependentUpon>Form9.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="A1.resx">
+      <DependentUpon>A1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="A2.resx">
+      <DependentUpon>A2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="A3.resx">
+      <DependentUpon>A3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="A4.resx">
+      <DependentUpon>A4.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="C1.resx">
+      <DependentUpon>C1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="C2.resx">
+      <DependentUpon>C2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="C3.resx">
+      <DependentUpon>C3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EditDetails.resx">
+      <DependentUpon>EditDetails.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form2.resx">
+      <DependentUpon>Form2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form3.resx">
+      <DependentUpon>Form3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form4.resx">
+      <DependentUpon>Form4.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form5.resx">
+      <DependentUpon>Form5.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form6.resx">
+      <DependentUpon>Form6.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form7.resx">
+      <DependentUpon>Form7.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form8.resx">
+      <DependentUpon>Form8.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form9.resx">
+      <DependentUpon>Form9.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Screenshot 2023-03-23 at 09-50-00 CSS Gradient Generator.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\register1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\forgotpassword1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\profilepage.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\profile_icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\messchange_icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\roombook_icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\roomchange_icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\issues_icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\issues_icon1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\roombooking.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\messchange.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\roomchange.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\issues.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\profilepage1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\roomchange1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\roombooking1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\roombooking11.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\roombooking2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\profilepage2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\stats_icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\issues1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\issues11.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\adminroomchange.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\adminmesschange.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\adminstats.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\FemaleCriteria.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MaleCriteria.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\issues12.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\searchicon.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\searchicon1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\profilepage3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\issues_icon2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\caretaker2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\caretaker.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mailwhite.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mail.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mailwhite1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mailwhite2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mailblack.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\adminroomchange1.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

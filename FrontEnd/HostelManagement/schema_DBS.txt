@@ -1,0 +1,19 @@
+create table Hostel(Hostel_id int primary key, warden varchar(50), total_rooms int, rooms_available int, constraint chk_rooms check (total_rooms >= rooms_available));
+
+create table Mess(Mess_id int primary key, mess_name varchar(50), availability int not null, constraint chk_availability check (availability = 0 or availability = 1));
+
+create table Hostel_rooms(Hostel_id int references Hostel(Hostel_id), Room_ID varchar(20) references rooms(Room_ID), available_rooms int, cgpa_needed float(4));
+
+create table rooms(Room_ID varchar(20) primary key not null,Occupant_type varchar(20) not null, Conditioning varchar(20) not null, constraint chk_AC check (conditioning = 'YES' or conditioning = 'NO'), constraint chk_occ check (Occupant_type = 'SINGLE' or Occupant_type = 'DOUBLE'));
+alter table rooms add constraint chk_ID check(Room_ID = '01AC' or Room_ID = '01NC' or Room_ID = '02AC' or Room_ID = '02NC');
+
+create table student(registration_number varchar(20) primary key, name varchar(50) not null, semester int not null,branch varchar(20) not null, cgpa float(4), Hostel_id int references Hostel(Hostel_id), Mess_id int references mess(mess_id), constraint chk_sem check (semester>=1 and semester<=8));
+alter table student add gender varchar(50) not null;
+alter table student add constraint chk_gender check (gender = 'FEMALE' or gender = 'MALE');
+
+create table caretaker(ct_id int primary key, ct_name varchar(50) not null, Hostel_id int references Hostel(Hostel_id),shift_timings varchar(10), contact varchar(60) not null);
+
+create table fees(Hostel_id int references Hostel(Hostel_id), room_ID references rooms(room_ID), Hostel_fee int not null, Mess_fee int not null, total_fee int not null);
+//trigger to add mess fee and hostel fee and insert into total fee;
+
+create table complaints(reg_no varchar(40) references student(registration_number), issue_id int primary key,issue_type varchar(50), issue varchar(100), ct_id int references caretaker(ct_id), issue_status varchar(50), constraint chk_status check (issue_status = 'COMPLETED' or issue_status = 'NOT COMPLETED'));
